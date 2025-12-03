@@ -9,7 +9,7 @@ long long pangkat(int a, int b) {
 }
 int main() {
     int a, b;
-    cout << "Masukkan angka basis: ";
+    cout << "Masukkan angka: ";
     cin >> a;
     cout << "Masukkan angka eksponen: ";
     cin >> b;
@@ -23,8 +23,4 @@ int main() {
     cout << a << "^" << b << " = " << hasil << endl;
     return 0;
 }
-
-
-
-
 
