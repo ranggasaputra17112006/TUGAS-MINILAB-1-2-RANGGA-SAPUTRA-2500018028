@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-long long power(int a, int b) {
+long long pangkat(int a, int b) {
     if (b == 0) {
         return 1;
     }
-    return a * power(a, b - 1);
+    return a * pangkat(a, b - 1);
 }
 int main() {
     int a, b;
@@ -19,9 +19,12 @@ int main() {
         return 1;
     }
     
-    long long result = power(a, b);
-    cout << a << "^" << b << " = " << result << endl;
+    long long hasil = pangkat(a, b);
+    cout << a << "^" << b << " = " << hasil << endl;
     return 0;
 }
+
+
+
 
 
